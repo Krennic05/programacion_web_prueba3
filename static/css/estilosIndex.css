@@ -1,0 +1,78 @@
+.container {
+  text-align: left;
+  padding: 20px;
+}
+.h2 {
+    font-family: sans-serif;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px;
+}
+
+.cardB {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px;
+  justify-items: center;
+}
+.cardC {
+  justify-items: center;
+}
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555;
+}
+
+.button {
+    background-color: royalblue;
+    color: white;
+    font-size: 14px;
+    height: 40px;
+    border-radius: 5px;
+    border-block-color: inherit;
+}
+input[type="text"] {
+    height: 18px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+label[for=nota1], [for=nota2], [for=nota3], [for=asistencia] {
+    font-weight: bold;
+}
+
+input.button[name="A"] {
+    text-decoration-line: underline;
+    margin: 20px;
+    height: 50px;
+    width: 200px;
+    border-block-color: inherit;
+}
+label[name="B"] {
+    font-weight: normal;
+}

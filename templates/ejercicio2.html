@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/estilosIndex.css">
+    <title>Formulario de nombres</title>
+</head>
+<body>
+    <div class="container">
+        <div class="cardB">
+    <form class="cardC" method="POST">
+        <div><label for="nombre1">Nombre 1:</label></div>
+        <div><input type="text" name="nombre1" value={{nombre1Input}}><br></div>
+        <div><label for="nombre2">Nombre 2:</label></div>
+        <div><input type="text" name="nombre2" value={{nombre2Input}}><br></div>
+        <div><label for="nombre3">Nombre 3:</label></div>
+        <div><input type="text" name="nombre3" value={{nombre3Input}}><br></div>
+        <div><input class="button" type="submit" name="botoncentro" value="Enviar"></div>
+    </form>
+    <h5><label name="B">{{nombreMasLargoInput}}</label></h5>
+    <h5><label name="B">{{numCaracteresInput}}</label></h5>
+        </div>
+    </div>
+</body>
+</html>

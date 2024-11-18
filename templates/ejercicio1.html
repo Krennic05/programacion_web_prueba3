@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/estilosIndex.css">
+    <title>Formulario de notas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Formulario de Notas</h2>
+            <form method="POST">
+                <div><label for="nota1">Nota 1:</label></div>
+                <div><input type="text" name="nota1" value={{nota1Input}}><br></div>
+                <div><label for="nota2">Nota 2:</label></div>
+                <div><input type="text" name="nota2" value={{nota2Input}}><br></div>
+                <div><label for="nota3">Nota 3:</label></div>
+                <div><input type="text" name="nota3" value={{nota3Input}}><br></div>
+                <div><label for="asistencia">Asistencia (%):</label></div>
+                <div><input type="text" name="asistencia" value={{asistenciaInput}}><br></div>
+                <div></div>
+                <div>
+                    <input class="button" type="submit" value="Enviar">
+                </div>
+            </form>
+            <h2><label name="B">{{promedioInput}}</label></h2>
+            <h3><label name="B">{{estadoInput}}</label></h3>
+        </div>
+    </div>
+</body>
+</html>
